@@ -1,0 +1,47 @@
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.csprojResolveAssemblyReference.cache
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\SpriteSheet.xnb
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\TitleScreen.xnb
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Fonts\Pericles14.xnb
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Robot_Rampage.exe
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Robot_Rampage.pdb
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.exe
+C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.pdb
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\SpriteSheet.xnb
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\TitleScreen.xnb
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Fonts\Pericles14.xnb
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Robot_Rampage.exe
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Robot_Rampage.pdb
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.dll
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.xml
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.csprojResolveAssemblyReference.cache
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.exe
+G:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.pdb
+E:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\SpriteSheet.xnb
+E:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\TitleScreen.xnb
+E:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Fonts\Pericles14.xnb
+E:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Robot_Rampage.exe
+E:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Robot_Rampage.pdb
+E:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.csprojResolveAssemblyReference.cache
+E:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.exe
+E:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.pdb
