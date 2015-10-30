@@ -45,3 +45,12 @@ E:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.csprojRe
 E:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.exe
 E:\Xna.Projects\Robot Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.pdb
+C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.csprojResolveAssemblyReference.cache
+C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.exe
+C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\SpriteSheet.xnb
+C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\TitleScreen.xnb
+C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\bin\x86\Debug\Content\Fonts\Pericles14.xnb
+C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\bin\x86\Debug\Robot_Rampage.exe
+C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\bin\x86\Debug\Robot_Rampage.pdb
+C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\obj\x86\Debug\Robot_Rampage.pdb

@@ -62,7 +62,7 @@ namespace Robot_Rampage
             return pixelY / TileHeight;
         }
 
-        static public Vector2 GetSquareByPixel(Vector2 pixelLocation)
+        static public Vector2 GetSquareAtPixel(Vector2 pixelLocation)
         {
             return new Vector2(GetSquareByPixelX((int)pixelLocation.X), GetSquareByPixelY((int)pixelLocation.Y));
         }

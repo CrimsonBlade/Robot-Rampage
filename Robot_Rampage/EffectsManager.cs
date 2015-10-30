@@ -95,7 +95,12 @@ namespace Robot_Rampage
 
         public static void AddExplosion(Vector2 location, Vector2 momentum)
         {
-            AddExplosion(location, momentum, 15, 20, 4, 6, 30f, 90, new Color(1.0f, 0.3f, 0f, 0.5f), new Color(1.0f, 0.3f, 0f, 0f));
+            AddExplosion(location, momentum, 15, 20, 2, 4, 6.0f, 90, new Color(1.0f, 0.3f, 0f, 0.5f), new Color(1.0f, 0.3f, 0f, 0f));
+        }
+
+        public static void AddLargeExplosion(Vector2 location)
+        {
+            AddExplosion(location, Vector2.Zero, 15, 20, 4, 6, 30f, 90, new Color(1.0f, 0.3f, 0f, 0.5f), new Color(1.0f, 0.3f, 0f, 0f));
         }
 
         public static void AddSparksEffect(Vector2 location, Vector2 impactVelocity)
@@ -105,6 +110,7 @@ namespace Robot_Rampage
             {
                 Particle particle = new Particle(location - (impactVelocity / 60), Texture, ParticleFrame, randomDirection((float)rand.Next(10, 20)),
                     Vector2.Zero, 60, 20, Color.Yellow, Color.Orange);
+                Effects.Add(particle);
             }
         }
         #endregion

@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
-      <Time>2015-10-21T15:39:00-04:00</Time>
+      <Output>C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
+      <Time>2015-10-30T08:44:38.4245266-04:00</Time>
     </Item>
     <Item>
       <Source>Textures\TitleScreen.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
-      <Time>2015-10-21T15:39:12-04:00</Time>
+      <Output>C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
+      <Time>2015-10-30T08:44:38.4325242-04:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Pericles14.spritefont</Source>
@@ -25,8 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\Fonts\Pericles14.xnb</Output>
-      <Time>2015-10-21T15:40:00-04:00</Time>
+      <Output>C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\bin\x86\Debug\Content\Fonts\Pericles14.xnb</Output>
+      <Time>2015-10-30T08:44:38.4195281-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -34,10 +34,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\Xna.Projects\Robot Rampage\Robot_RampageContent\</RootDirectory>
-      <LoggerRootDirectory>E:\Xna.Projects\Robot Rampage\Robot_Rampage\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\Xna.Projects\Robot Rampage\Robot_RampageContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\Xna.Projects\Robot Rampage\Robot_Rampage\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_RampageContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_RampageContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_Rampage\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
