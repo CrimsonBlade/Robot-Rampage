@@ -2,3 +2,4 @@ C:\Users\Gaming\Documents\Visual Studio 2015\Projects\Robot Rampage\Robot_Rampag
 G:\Xna.Projects\Robot Rampage\Robot_RampageContent\obj\x86\Debug\Robot_RampageContent.contentprojResolveAssemblyReference.cache
 E:\Xna.Projects\Robot Rampage\Robot_RampageContent\obj\x86\Debug\Robot_RampageContent.contentprojResolveAssemblyReference.cache
 C:\Users\G00178415\Desktop\GitHub\Robot-Rampage\Robot_RampageContent\obj\x86\Debug\Robot_RampageContent.contentprojResolveAssemblyReference.cache
+C:\Users\Gaming\Documents\GitHub\Robot-Rampage\Robot_RampageContent\obj\x86\Debug\Robot_RampageContent.contentprojResolveAssemblyReference.cache

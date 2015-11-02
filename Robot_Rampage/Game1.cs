@@ -63,8 +63,13 @@ namespace Robot_Rampage
            
             TileMap.Initialize(spriteSheet);
             WeaponManager.Texture = spriteSheet;
-            Player.Initialize(spriteSheet, new Rectangle(0, 64, 32, 32), 6, new Rectangle(0, 96, 32, 32), 1, new Vector2(300, 300));
+            Player.Initialize(spriteSheet, new Rectangle(0, 64, 32, 32), 6, new Rectangle(0, 96, 32, 32), 1, new Vector2(32, 32));
             EffectsManager.Initialize(spriteSheet, new Rectangle(0, 288, 2, 2), new Rectangle(0, 256, 32, 32), 3);
+
+            GoalManager.Initialize(spriteSheet, new Rectangle(0, 7 * 32, 32, 32), new Rectangle(3 * 32, 7 * 32, 32, 32), 3, 1);
+            GoalManager.GenerateComputers(10);
+
+            EnemyManager.Initialize(spriteSheet, new Rectangle(0, 160, 32, 32));
 
             // TODO: use this.Content to load your game content here
         }
@@ -93,6 +98,8 @@ namespace Robot_Rampage
             Player.Update(gameTime);
             WeaponManager.Update(gameTime);
             EffectsManager.Update(gameTime);
+            GoalManager.Update(gameTime);
+            EnemyManager.Update(gameTime);
             base.Update(gameTime);
 
 
@@ -113,6 +120,8 @@ namespace Robot_Rampage
             WeaponManager.Draw(spriteBatch);
             Player.Draw(spriteBatch);
             EffectsManager.Draw(spriteBatch);
+            GoalManager.Draw(spriteBatch);
+            EnemyManager.Draw(spriteBatch);
 
             //Temp code start
             Vector2 mouseLocation = new Vector2(Mouse.GetState().X, Mouse.GetState().Y);

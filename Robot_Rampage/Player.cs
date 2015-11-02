@@ -261,5 +261,15 @@ namespace Robot_Rampage
             return moveAngle;
         }
         #endregion
+
+        #region Properties
+        public static Vector2 PathingNodePosition
+        {
+            get
+            {
+                return TileMap.GetSquareAtPixel(BaseSprite.WorldCenter);
+            }
+        }
+        #endregion
     }
 }

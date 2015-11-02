@@ -58,7 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Camera.cs" />
+    <Compile Include="ComputerTerminal.cs" />
     <Compile Include="EffectsManager.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyManager.cs" />
+    <Compile Include="GoalManager.cs" />
     <Compile Include="Particle.cs" />
     <Compile Include="PathFinder.cs" />
     <Compile Include="PathNode.cs" />
