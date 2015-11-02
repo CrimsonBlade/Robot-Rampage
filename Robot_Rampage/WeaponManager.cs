@@ -218,6 +218,7 @@ namespace Robot_Rampage
                     {
                         shot.Expired = true;
                         enemy.Destroyed = true;
+                        GameManager.Score += 10;
                         if (shot.Frame == 0)
                         {
                             EffectsManager.AddExplosion(enemy.EnemyBase.WorldCenter, enemy.EnemyBase.Velocity / 30);
@@ -245,6 +246,7 @@ namespace Robot_Rampage
                     if (enemy.EnemyBase.IsCircleColliding(location, rocketSplashRadius))
                     {
                         enemy.Destroyed = true;
+                        GameManager.Score += 10;
                         EffectsManager.AddExplosion(enemy.EnemyBase.WorldCenter, Vector2.Zero);
                     }
                 }

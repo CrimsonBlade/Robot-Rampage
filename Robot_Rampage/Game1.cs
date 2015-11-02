@@ -21,7 +21,25 @@ namespace Robot_Rampage
         Texture2D spriteSheet;
         Texture2D titleScreen;
         SpriteFont pericles14;
+
+        enum GameStates { TitleScreen, Playing, WaveComplete, GameOver};
+        GameStates gameState = GameStates.TitleScreen;
+        float gameOverTimer = 0.0f;
+        float gameOverDelay = 6.0f;
+        float waveCompleteTimer = 0.0f;
+        float waveCompleteDelay = 6.0f;
         
+        private void checkPlayerDeath()
+        {
+            foreach (Enemy enemy in EnemyManager.Enemies)
+            {
+                if (enemy.EnemyBase.IsCircleColliding(Player.BaseSprite.WorldCenter, Player.BaseSprite.CollisionRadius))
+                {
+                    gameState = GameStates.GameOver;
+                }
+            }
+        }
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -67,7 +85,7 @@ namespace Robot_Rampage
             EffectsManager.Initialize(spriteSheet, new Rectangle(0, 288, 2, 2), new Rectangle(0, 256, 32, 32), 3);
 
             GoalManager.Initialize(spriteSheet, new Rectangle(0, 7 * 32, 32, 32), new Rectangle(3 * 32, 7 * 32, 32, 32), 3, 1);
-            GoalManager.GenerateComputers(10);
+            
 
             EnemyManager.Initialize(spriteSheet, new Rectangle(0, 160, 32, 32));
 
@@ -94,19 +112,49 @@ namespace Robot_Rampage
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            
-            Player.Update(gameTime);
-            WeaponManager.Update(gameTime);
-            EffectsManager.Update(gameTime);
-            GoalManager.Update(gameTime);
-            EnemyManager.Update(gameTime);
+            switch (gameState)
+            {
+                case GameStates.TitleScreen:
+                    if ((GamePad.GetState(PlayerIndex.One).Buttons.A == ButtonState.Pressed) || (Keyboard.GetState().IsKeyDown(Keys.Space)))
+                    {
+                        GameManager.StartNewGame();
+                        gameState = GameStates.Playing;
+                    }
+                    break;
+
+                case GameStates.Playing:
+                    Player.Update(gameTime);
+                    WeaponManager.Update(gameTime);
+                    EnemyManager.Update(gameTime);
+                    EffectsManager.Update(gameTime);
+                    GoalManager.Update(gameTime);
+                    if (GoalManager.ActiveTerminals == 0)
+                    {
+                        gameState = GameStates.WaveComplete;
+                    }
+                    break;
+
+                case GameStates.WaveComplete:
+                    waveCompleteTimer += (float)gameTime.ElapsedGameTime.TotalSeconds;
+                    if (waveCompleteTimer > waveCompleteDelay)
+                    {
+                        GameManager.StartNewWave();
+                        gameState = GameStates.Playing;
+                        waveCompleteTimer = 0.0f;
+                    }
+                    break;
+
+                case GameStates.GameOver:
+                    gameOverTimer += (float)gameTime.ElapsedGameTime.TotalSeconds;
+                    if (gameOverTimer > gameOverDelay)
+                    {
+                        gameState = GameStates.TitleScreen;
+                        gameOverTimer = 0.0f;
+                    }
+                    break;
+            }
             base.Update(gameTime);
-
-
-            // TODO: Add your update logic here
-
-            base.Update(gameTime);
-        }
+        }          
 
         /// <summary>
         /// This is called when the game should draw itself.
@@ -116,33 +164,39 @@ namespace Robot_Rampage
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
-            TileMap.Draw(spriteBatch);
-            WeaponManager.Draw(spriteBatch);
-            Player.Draw(spriteBatch);
-            EffectsManager.Draw(spriteBatch);
-            GoalManager.Draw(spriteBatch);
-            EnemyManager.Draw(spriteBatch);
-
-            //Temp code start
-            Vector2 mouseLocation = new Vector2(Mouse.GetState().X, Mouse.GetState().Y);
-            mouseLocation += Camera.Position;
-            List<Vector2> path = PathFinder.FindPath(TileMap.GetSquareAtPixel(mouseLocation), TileMap.GetSquareAtPixel(Player.BaseSprite.WorldCenter));
-
-            if (!(path == null))
+            if (gameState == GameStates.TitleScreen)
             {
-                foreach (Vector2 node in path)
-                {
-                    spriteBatch.Draw(spriteSheet, TileMap.SquareScreenRectangle((int)node.X, (int)node.Y),
-                        new Rectangle(0, 228, 32, 32), new Color(128, 0, 0, 80));
-                }
+                spriteBatch.Draw(titleScreen, new Rectangle(0, 0, 800, 600), Color.White);
             }
-            //Temp code end
+
+            if ((gameState == GameStates.Playing) || (gameState == GameStates.WaveComplete) || (gameState == GameStates.GameOver))
+            {
+                TileMap.Draw(spriteBatch);
+                WeaponManager.Draw(spriteBatch);
+                Player.Draw(spriteBatch);
+                EnemyManager.Draw(spriteBatch);
+                EffectsManager.Draw(spriteBatch);
+                GoalManager.Draw(spriteBatch);
+
+                checkPlayerDeath();
+                spriteBatch.DrawString(pericles14, "Score: " + GameManager.Score.ToString(), new Vector2(30, 5), Color.White);
+                spriteBatch.DrawString(pericles14, "Terminals Remaining: " + GoalManager.ActiveTerminals, new Vector2(520, 5), Color.White);
+            }
+
+            if (gameState == GameStates.WaveComplete)
+            {
+                spriteBatch.DrawString(pericles14, "Beginning Wave: " + (GameManager.CurrentWave + 1).ToString(), new Vector2(300, 300), Color.White);
+            }
+
+            if (gameState == GameStates.GameOver)
+            {
+                spriteBatch.DrawString(pericles14, "G A M E  O V E R", new Vector2(300, 300), Color.White);
+            }
             spriteBatch.End();
-           
-
-            // TODO: Add your drawing code here
-
             base.Draw(gameTime);
+                
+
+          
         }
     }
 }
